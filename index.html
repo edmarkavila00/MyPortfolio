@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Edmark Lupiga">
+  <meta name="theme-color" content="#00c853">
+  <meta name="description" content="Edmark Lupiga - Aspiring Developer, Data Analyst, and Problem Solver. Explore my portfolio of projects, skills, and tools.">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+</head>
+<body>
+
+  <!-- Navbar -->
+<header class="navbar">
+  <div id="logo">Edmark</div>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="menu-toggle" id="menuToggle">
+  <i class="fas fa-bars"></i>
+</div>
+
+  
+
+  <div class="btn-dropdown">
+    <button class="btn primary dropbtn">More ▾</button>
+    <ul class="dropdown-content">
+      <li><a href="#contact">Hire Me</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#testimonials">References</a></li>
+    </ul>
+  </div>
+</header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Edmark</span></h1>
+      <p>Aspiring Developer | Data Analyst | Problem Solver</p>
+      <div class="buttons">
+        <a href="#projects" class="btn primary">View My Work</a>
+        <a href="#about" class="btn secondary">About Me</a>
+      </div>
+    </div>
+
+    
+  <!-- Neon particles -->
+  <div class="particle" style="top:10%; left:20%; animation-delay:0s;"></div>
+  <div class="particle" style="top:40%; left:70%; animation-delay:2s;"></div>
+  <div class="particle" style="top:80%; left:30%; animation-delay:4s;"></div>
+  <div class="particle" style="top:20%; left:50%; animation-delay:6s;"></div>
+  <div class="particle" style="top:60%; left:80%; animation-delay:1s;"></div>
+  </section>
+
+  <!-- About -->
+<section id="about" class="about">
+  <h2>Edmark Lupiga</h2>  <!-- Title centered -->
+  <div class="about-content">
+    <!-- Profile Image -->
+    <img src="dp.png" alt="Edmark" class="about-img">
+
+    <!-- Text Content -->
+    <div class="about-text">
+  <p>
+  " I'm a tech enthusiast who enjoys exploring web technologies and building
+  simple, modern, and responsive projects as part of my learning journey. 
+   I'm interested in learning SQL and databases to strengthen my 
+  understanding of backend development. My goal is to keep improving my 
+  skills and create projects that make an impact as I grow in the field. "
+</p>
+
+      <!-- Quick Info -->
+      <ul class="about-info">
+        <li>🎓 BS in Information Technology</li>
+        <li>💻 2+ years coding experience</li>
+        <li>🌍 Based in Philippines</li>
+        <li>📚 Currently learning React & Node.js</li>
+      </ul>
+
+      <!-- Resume Button -->
+<a href="resume.pdf" target="_blank" class="btn secondary">View Resume</a>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="skills">
+  <h2>My Skills</h2>
+  <div class="skills-grid">
+
+    <!-- HTML -->
+    <article class="skill-tile">
+      <i class="devicon-html5-plain colored"></i>
+      <h3>HTML</h3>
+      <div class="skill-details">
+        <p>✔ Certification: 
+          <a href="certifications/html_cert.pdf" target="_blank">FreeCodeCamp HTML</a>
+        </p>
+        <p>📄 Reference: 
+          <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML</a>
+        </p>
+      </div>
+    </article>
+
+    <!-- CSS -->
+    <article class="skill-tile">
+      <i class="devicon-css3-plain colored"></i>
+      <h3>CSS</h3>
+      <div class="skill-details">
+        <p>✔ Certification: 
+          <a href="certifications/css_cert.pdf" target="_blank">Udemy Web Design</a>
+        </p>
+        <p>📄 Reference: 
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN CSS Docs</a>
+        </p>
+      </div>
+    </article>
+
+    <!-- JavaScript -->
+    <article class="skill-tile">
+      <i class="devicon-javascript-plain colored"></i>
+      <h3>JavaScript</h3>
+      <div class="skill-details">
+        <p>✔ Certification: 
+          <a href="certifications/js_cert.pdf" target="_blank">SoloLearn JavaScript</a>
+        </p>
+        <p>📄 Reference: 
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">MDN JavaScript</a>
+        </p>
+      </div>
+    </article>
+
+    <!-- Show More -->
+    <article class="skill-tile show-more" id="showMore">
+      <h3>Show More</h3>
+    </article>
+
+    <!-- SQL -->
+    <article class="skill-tile extra hidden">
+      <i class="devicon-mysql-plain colored"></i>
+      <h3>SQL</h3>
+      <div class="skill-details">
+        <p>✔ Certification: 
+          <a href="certifications/sql_cert.pdf" target="_blank">W3Schools SQL</a>
+        </p>
+        <p>📄 Reference: 
+          <a href="https://dev.mysql.com/doc/" target="_blank">MySQL Docs</a>
+        </p>
+      </div>
+    </article>
+
+    <!-- C++ -->
+    <article class="skill-tile extra hidden">
+      <i class="devicon-cplusplus-plain colored"></i>
+      <h3>C++</h3>
+      <div class="skill-details">
+        <p>✔ Certification: 
+          <a href="certifications/cpp_cert.pdf" target="_blank">HackerRank C++</a>
+        </p>
+        <p>📄 Reference: 
+          <a href="https://cplusplus.com/doc/" target="_blank">C++ Reference</a>
+        </p>
+      </div>
+    </article>
+
+    <!-- Java -->
+    <article class="skill-tile extra hidden">
+      <i class="devicon-java-plain colored"></i>
+      <h3>Java</h3>
+      <div class="skill-details">
+        <p>✔ Certification: 
+          <a href="certifications/java_cert.pdf" target="_blank">Oracle Java Basics</a>
+        </p>
+        <p>📄 Reference: 
+          <a href="https://docs.oracle.com/javase/tutorial/" target="_blank">Java Tutorials</a>
+        </p>
+      </div>
+    </article>
+
+    <!-- Python -->
+    <article class="skill-tile extra hidden">
+      <i class="devicon-python-plain colored"></i>
+      <h3>Python</h3>
+      <div class="skill-details">
+        <p>✔ Certification: 
+          <a href="certifications/python_cert.pdf" target="_blank">Python for Everyone</a>
+        </p>
+        <p>📄 Reference: 
+          <a href="https://docs.python.org/3/" target="_blank">Python Docs</a>
+        </p>
+      </div>
+    </article>
+
+    <!-- C# -->
+    <article class="skill-tile extra hidden">
+      <i class="devicon-csharp-plain colored"></i>
+      <h3>C#</h3>
+      <div class="skill-details">
+        <p>✔ Certification: 
+          <a href="certifications/csharp_cert.pdf" target="_blank">Microsoft C# Fundamentals</a>
+        </p>
+        <p>📄 Reference: 
+          <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">MS Docs</a>
+        </p>
+      </div>
+    </article>
+
+    <!-- Git & GitHub -->
+    <article class="skill-tile extra hidden">
+      <i class="devicon-git-plain colored"></i>
+      <h3>Git & GitHub</h3>
+      <div class="skill-details">
+        <p>✔ Certification: 
+          <a href="certifications/git_cert.pdf" target="_blank">Git Essentials</a>
+        </p>
+        <p>📄 Reference: 
+          <a href="https://git-scm.com/doc" target="_blank">Git Docs</a>
+        </p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+  <!-- Projects -->
+<section id="projects" class="projects">
+  <h2>Projects</h2>
+  <div class="project-list">
+    
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>
+        A responsive personal portfolio website to showcase my skills, projects, 
+        and contact information. Built with HTML, CSS, and JavaScript.
+      </p>
+      <p class="tech-stack">Tech Stack: HTML, CSS, JavaScript</p>
+      <div class="project-links">
+        <a href="https://github.com/yourusername/portfolio" >View Code</a>
+        <a href="https://yourwebsite.com" target="_blank">Live Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Login System</h3>
+      <p>
+        A secure authentication system with user registration, login/logout, and 
+        session handling. Designed for small-scale web apps.
+      </p>
+      <p class="tech-stack">Tech Stack: PHP, MySQL, HTML, CSS</p>
+      <div class="project-links">
+        <a href="https://github.com/yourusername/login-system" target="_blank">View Code</a>
+        <a href="#" target="_blank">Live Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+  <h3>Android App</h3>
+  <p>
+    A mobile application developed with Java and XML using Android Studio. 
+    Features include user authentication, data storage, and a clean Material 
+    Design UI.
+  </p>
+  <p class="tech-stack">Tech Stack: Java, XML, Android SDK, Firebase</p>
+  <div class="project-links">
+    <a href="https://github.com/yourusername/android-app" target="_blank">View Code</a>
+    <a href="#" target="_blank">Live Demo</a>
+  </div>
+</div>
+  </div>
+</section>
+
+<!-- Blog -->
+<section id="blog" class="blog">
+  <h2>My Blog</h2>
+  <div class="blog-list">
+
+    <article class="blog-card">
+      <img src="images/sql-joins.jpg" alt="SQL Joins" class="blog-img">
+      <h3>Understanding SQL Joins</h3>
+      <p>
+        A detailed guide explaining different types of SQL joins with examples, 
+        helping beginners understand relational databases better.
+      </p>
+      <p class="blog-date">📅 Published: Sep 2025</p>
+      <a href="blog/sql-joins.html" target="_blank" class="btn secondary">Read More</a>
+    </article>
+
+    <article class="blog-card">
+      <img src="images/responsive-portfolios.jpg" alt="Responsive Portfolios" class="blog-img">
+      <h3>Building Responsive Portfolios</h3>
+      <p>
+        Tips and tricks for creating clean, responsive, and modern personal 
+        portfolio websites using HTML, CSS, and JS.
+      </p>
+      <p class="blog-date">📅 Published: Aug 2025</p>
+      <a href="blog/responsive-portfolios.html" target="_blank" class="btn secondary">Read More</a>
+    </article>
+
+    <article class="blog-card">
+      <img src="images/android-intro.jpg" alt="Android App Development" class="blog-img">
+      <h3>Intro to Android App Development</h3>
+      <p>
+        A beginner-friendly guide for building Android apps using Java, XML, and 
+        Android Studio with Firebase integration.
+      </p>
+      <p class="blog-date">📅 Published: Jul 2025</p>
+      <a href="blog/android-intro.html" target="_blank" class="btn secondary">Read More</a>
+    </article>
+
+  </div>
+</section>
+
+
+<!-- Tools Section -->
+<section id="tools" class="tools">
+  <h2 class="section-title">Tools</h2>
+  <div class="tools-container">
+    
+    <a href="https://code.visualstudio.com/" target="_blank" class="tool-card">
+      <i class="devicon-vscode-plain colored tool-icon"></i>
+      <h3>VS Code</h3>
+    </a>
+
+    <a href="https://git-scm.com/" target="_blank" class="tool-card">
+      <i class="devicon-git-plain colored tool-icon"></i>
+      <h3>Git & GitHub</h3>
+    </a>
+
+     <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank" class="tool-card">
+      <i class="fa-solid fa-file-excel tool-icon" style="color:#21A366;"></i>
+      <h3>Microsoft Excel</h3>
+    </a>
+
+    <a href="https://developer.android.com/studio" target="_blank" class="tool-card">
+      <i class="devicon-androidstudio-plain colored tool-icon"></i>
+      <h3>Android Studio</h3>
+    </a>
+
+    <a href="https://www.apachefriends.org/" target="_blank" class="tool-card">
+      <i class="devicon-apache-plain colored tool-icon"></i>
+      <h3>XAMPP</h3>
+    </a>
+
+    <a href="https://www.figma.com/" target="_blank" class="tool-card">
+      <i class="devicon-figma-plain colored tool-icon"></i>
+      <h3>Figma</h3>
+    </a>
+
+  </div>
+</section>
+
+<!-- References -->
+<section id="testimonials" class="references">
+  <h2>References</h2>
+  <div class="references-container">
+    
+    <div class="reference-card">
+      <h3>John Doe</h3>
+      <p>Senior Developer at TechCorp</p>
+      <p>Email: <a href="mailto:johndoe@example.com">johndoe@example.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+    </div>
+
+    <div class="reference-card">
+      <h3>Jane Smith</h3>
+      <p>Project Manager at WebWorks</p>
+      <p>Email: <a href="mailto:janesmith@example.com">janesmith@example.com</a></p>
+      <p>Phone: <a href="tel:+1234567891">+1 234 567 891</a></p>
+    </div>
+
+    <!-- Add more references as needed -->
+
+  </div>
+</section>
+
+
+<!-- Contact -->
+<section id="contact" class="contact-section">
+  <h2>Let’s Work Together 🚀</h2>
+  <p>Got a project or idea? Feel free to reach out!</p>
+
+  <div class="contact-info">
+    <p><i class="fas fa-envelope"></i> <a href="mailto:edmarkavila26@gmail.com">edmarkavila26@gmail.com</a></p>
+    <p><i class="fas fa-phone"></i> <a href="tel:+639931625677">+63 993 162 5677</a></p>
+  </div>
+
+  <div class="social-icons">
+  <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+  <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+</div>
+
+</section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Edmark. All Rights Reserved.</p>
+  </footer> 
+
+  <script>
+
+    const menuToggle = document.getElementById("menuToggle");
+const navMenu = document.querySelector(".navbar nav ul");
+
+menuToggle.addEventListener("click", () => {
+  navMenu.classList.toggle("show");
+});
+
+
+
+  // Navbar active link highlighting
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".navbar a");
+
+  // Highlight on scroll
+  window.addEventListener("scroll", () => {
+    let current = "";
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 100;
+      if (scrollY >= sectionTop) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === `#${current}`) {
+        link.classList.add("active");
+      }
+    });
+  });
+
+  // Highlight on click
+  navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      navLinks.forEach(nav => nav.classList.remove("active"));
+      link.classList.add("active");
+    });
+  });
+
+
+ const showMoreBtn = document.getElementById("showMore");
+const extraSkills = document.querySelectorAll(".skill-tile.extra");
+const skillTiles = document.querySelectorAll(".skill-tile:not(.show-more)");
+let expanded = false;
+
+// Toggle certifications
+skillTiles.forEach(tile => {
+  tile.addEventListener("click", () => {
+    tile.classList.toggle("active");
+  });
+});
+
+// Toggle Show More / Show Less
+showMoreBtn.addEventListener("click", () => {
+  expanded = !expanded;
+
+  extraSkills.forEach(skill => {
+    if (expanded) {
+      skill.classList.add("show");
+      skill.style.display = "flex";
+    } else {
+      skill.classList.remove("show");
+      skill.style.display = "none";
+    }
+  });
+
+  if (expanded) {
+    showMoreBtn.querySelector("h3").textContent = "Show Less";
+    showMoreBtn.parentNode.appendChild(showMoreBtn); // move to bottom
+
+    // ✅ Scroll into view when showing extra skills
+    extraSkills[0].scrollIntoView({ behavior: "smooth", block: "start" });
+  } else {
+    showMoreBtn.querySelector("h3").textContent = "Show More";
+    const jsTile = document.querySelector(".skill-tile:nth-child(3)");
+    jsTile.insertAdjacentElement("afterend", showMoreBtn); // move beside JS
+  }
+});
+
+</script>
+
+</body>
+</html>
